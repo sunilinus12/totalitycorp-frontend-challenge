@@ -47,6 +47,46 @@ export default function Content() {
           }
         />
       </div>
+
+      <div className="content">
+        <img
+          className="box1"
+          src={
+            "https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-81152.jpg"
+          }
+        />
+        <div className="box3">
+          <div className="center">
+            <div className="inner_head_title">Perfectly </div>
+            <div className="inner_head_title"> pumpkin </div>
+            <div className="inner_head_body">
+              Savor the season with a Pumpkin Spice Latte or Pumpkin Cream Cold
+              Brew.
+            </div>
+            <div className="btn_order">Order now</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="content content_updated">
+        <img
+          className="box1"
+          src={
+            "https://content-prod-live.cert.starbucks.com/binary/v2/asset/137-79282.jpg"
+          }
+        />
+        <div className="box3 ">
+          <div className="center">
+            <div className="inner_head_title">Layers of baked </div>
+            <div className="inner_head_title"> apple yum </div>
+            <div className="inner_head_body">
+              Try the Apple Crisp Oatmilk Macchiato, now nondairy and with
+              Starbucks® Blonde Espresso.
+            </div>
+            <div className="btn_order">Learn more</div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
